@@ -1,0 +1,50 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+local_settings.py
+media/
+static/
+staticfiles/
+
+# PyCharm specific files
+.idea/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# PostgreSQL Database Files
+*.pgsql
+*.sql
+
+# Tailwind CSS build output
+tailwind.config.js
+public/
+
+# Django migrations
+*/migrations/*
+
+# Coverage directory used by tools like coverage.py
+.coverage
+.coverage.*
+
+# mypy type checking
+.mypy_cache/
+
+# VSCode files
+.vscode/
+
+# Django Secret Key
+.secret_key
